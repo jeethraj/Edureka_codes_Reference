@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title>CSS Introduction</title>
+    <style>
+        div {
+            color: blue;
+        }
+
+        span {
+            color: green;
+        }
+
+        #one {
+            color: brown;
+            font-size: 10px;
+        }
+
+        .one {
+            color: green;
+        }
+
+        * {
+            color: black;
+        }
+
+        span,
+        .two,
+        #two {
+            font-size: 20px;
+        }
+
+        .heightWidth {
+            height: 400px;
+            min-width: 450px;
+            border: black 1px solid;
+            background-color: red;
+            background-image: url('./Images/nightlife.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .font {
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style: italic;
+            font-weight: 900;
+            color: red;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -- style attribute -->
+    <!-- Internal CSS -- style tag -->
+    <!-- External CSS -- link tag -->
+
+    <!-- Precedence Order -->
+
+    <!-- Inline >> Internal >> External  -->
+    <div id="one">
+        Hello... Everyone
+    </div>
+    <div class="one">
+        Hello... Everyone
+    </div>
+    <div class="one">
+        Hello... Everyone
+    </div>
+
+    <div class="heightWidth">
+        Hello
+    </div>
+
+    <span id="two">Bye Bye </span>
+
+    <span class="one">Bye Bye </span>
+
+    <!-- Inherit Prop from Immediate Parent -->
+
+    <div style="z-index: 20; position: relative;">
+        <div style="z-index: inherit;">
+
+        </div>
+    </div>
+
+    <div class="font">CSS Font Styles </div>
+
+
+    <!-- CSS Selectors 
+    1. Tag Name -- not at all use this selector 
+    2. Id 
+    3. Class 
+    4. Universal -- not at all use this selector 
+    5. Group -->
+
+
+    <!-- Border Styles -->
+
+    <div style="border: solid 1px red; margin: 5px;">Solid</div>
+    <div style="border: dotted 1px black; margin: 5px;">Dotted</div>
+    <div style="border: dashed 1px green; margin: 5px;">Dashed</div>
+    <div style="border: double 1px blue; margin: 5px;">Double</div>
+
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+.wallpaper-content {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.logo {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.search {
+    text-align: center;
+}
+
+.selectBox {
+    width: 180px;
+    height: 30px;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.searchBox {
+    width: 350px;
+    height: 33px;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.item {
+    width: 350px;
+    height: 150px;
+    box-shadow: 10px 10px 15px 0 red;
+    display: inline-block;
+    margin: 10px;
+}
+
+.item-left {
+    display: inline-block;
+    width: 40%;
+}
+
+.item-right {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.header {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+/*  Media Queries Sections - 
+
+Mobile         =>  0px-600px
+Tablet         =>  600px-792px
+Small Desktop  => 792px-992px
+Desktop        => 992px-1234px
+
+*/
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    .wallpaper-content {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .logo {
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        color: red;
+        font-size: 50px;
+        margin-left: 35%;
+    }
+    .heading {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.53;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .search {
+        text-align: center;
+        padding-right: 50px;
+    }
+    .selectBox {
+        width: 240px;
+        height: 30px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+    .searchBox {
+        width: 245px;
+        height: 33px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {
+    .wallpaper-content {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .logo {
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        color: red;
+        font-size: 50px;
+        margin-left: 35%;
+    }
+    .heading {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.53;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .search {
+        text-align: center;
+        padding-right: 50px;
+    }
+    .selectBox {
+        width: 240px;
+        height: 30px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+    .searchBox {
+        width: 245px;
+        height: 33px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+    }
+}
+
+@media only screen and (min-width: 792px) and (max-width: 992px) {
+    .wallpaper-content {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .logo {
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        color: red;
+        font-size: 50px;
+        margin-left: 35%;
+    }
+    .heading {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.53;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .search {
+        text-align: center;
+        padding-right: 50px;
+    }
+    .selectBox {
+        width: 240px;
+        height: 30px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+    .searchBox {
+        width: 245px;
+        height: 33px;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+    }
+}

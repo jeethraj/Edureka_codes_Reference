@@ -1,0 +1,24 @@
+FullStack Development -> 
+
+MERN - MongoDB Express React Node
+
+FrontEnd - visible + interactive portion of your app
+
+HTML - Skeleton/Structure 
+CSS - Cascaded Style Sheets - Style the skeleton
+Bootstrap - CSS Framework  eg: MaterialUI
+JavaScript - Functionality to app
+React - JS Library + Node ( Environment )
+Eg : Vue, Ember, Angular, Backbone etc
+
+Framework = Library + RunTime Environment
+
+
+BackEnd - communicating + processing layer b/w FN & DB
+
+Node JS - Programming  JS
+Express - Node Framework - JS
+
+
+DataBase - storage container for all releavnt data
+MongoDB - JS driven

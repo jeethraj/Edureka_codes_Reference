@@ -1,0 +1,241 @@
+<html>
+
+<head>
+    <title>
+        HTML Introduction
+    </title>
+</head>
+
+<body>
+
+
+    <div style="color: red">My First Web Page</div>
+    <div>Internship Program</div>
+
+    <div>
+        Bye
+        <div>
+            Hi
+        </div>
+        <div>
+            Hello
+        </div>
+    </div>
+
+
+    <span>My First Web Page</span>
+    <span>Internship Program</span>
+
+    <!--  ******   div vs span  *******
+        1. div takes entire row space vs span takes only required space
+        2. div always starts from new row vs span starts from same row 
+    -->
+
+    <!-- Reason for difference 
+    ***************  display property *************************
+
+    ==>  display : block 
+         
+    1. block elements takes the entire row space
+    2. block elements always start from a new line 
+    3. with block elements you can set height and width  
+
+    ==> display : Inline 
+
+    1. inline elements takes only required space
+    2. inline elements starts from same line 
+    3. with inline elements you cannot set height and width  
+
+    ==> display : Inline-block
+
+    1. inline-block elements takes only required space
+    2. inline-block elements starts from same line 
+    3. with inline-block elements you can set height and width  
+
+    -->
+
+    <div>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+    </div>
+    <div>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+        <span style="width: 300px; height: 100px; border: 1px black solid; display: inline-block;"></span>
+    </div>
+
+    <div>
+        <div style="display: block;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: block;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: block;width: 300px; height: 100px; border: 1px red solid;"></div>
+
+        <div style="display: inline;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: inline;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: inline;width: 300px; height: 100px; border: 1px red solid;"></div>
+
+        <div style="display: inline-block;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: inline-block;width: 300px; height: 100px; border: 1px red solid;"></div>
+        <div style="display: inline-block;width: 300px; height: 100px; border: 1px red solid;"></div>
+    </div>
+
+    <!-- Button in HTML -->
+    <button>Click Me !!!</button>
+    <button>Login</button>
+
+    <!-- Headings in HTML -->
+
+    <h1>Edureka...</h1>
+    <h2>Edureka...</h2>
+    <h3>Edureka...</h3>
+    <h4>Edureka...</h4>
+    <h5>Edureka...</h5>
+    <h6>Edureka...</h6>
+
+    <!-- Input Tags -->
+
+    <input type="text" />
+    <input type="color" />
+    <input type="date" />
+    <input type="password" />
+    <input type="number" />
+    <input type="file" />
+    <textarea rows="5" cols="40"></textarea>
+
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="number" />
+        </div>
+        <div>
+            <label>Address</label>
+            <textarea rows="5" cols="40"></textarea>
+        </div>
+        <input type="submit" value="Save" />
+        <input type="reset" />
+    </form>
+
+    <!-- Anchor Tag -->
+
+    <a href="https://www.google.com" target="_self">Google</a>
+    <a href="https://www.facebook.com" target="_blank">Fb</a>
+
+    <a href="https://www.facebook.com" target="_blank">
+        <img src="Images/dinner.png" height=20px />
+    </a>
+
+    <!-- default value for target attribute is _self -->
+
+    <!-- Marquee Tag -->
+    <!-- style tags in html like bold, italics, underline  -->
+
+    <marquee>
+        <h1>
+            <i>
+                <u>
+                    <b>Welcome to Internship Program !!!</b>
+                </u>
+            </i>
+        </h1>
+    </marquee>
+
+    <marquee>
+        <img src="Images/dinner.png" height=20px />
+    </marquee>
+
+    <div>Hello <strong>Shubham</strong></div>
+
+    <!-- Table -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td>S.No</td>
+                <td>Name</td>
+                <td>Subject</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td><i>Shubham</i></td>
+                <td>FullStack</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Mayank</td>
+                <td>FullStack Developer</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Mayank</td>
+                <td><input type="text" /></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Ordered Lists -->
+
+    <ol type="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+
+    <!-- Unordered Lists -->
+
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+
+    <ul type="sphere">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+</body>
+
+</html>

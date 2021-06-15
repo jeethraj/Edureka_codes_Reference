@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>CSS Introduction</title>
+    <style>
+        div {
+            color: blue;
+        }
+
+        span {
+            color: green;
+        }
+
+        #one {
+            color: brown;
+            font-size: 10px;
+        }
+
+        .one {
+            color: green;
+        }
+
+        * {
+            color: black;
+        }
+
+        span, .two, #two {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -- style attribute -->
+    <!-- Internal CSS -- style tag -->
+    <!-- External CSS -- link tag -->
+
+    <!-- Precedence Order -->
+
+    <!-- Inline >> Internal >> External  -->
+    <div id="one">
+        Hello... Everyone
+    </div>
+    <div class="one">
+        Hello... Everyone
+    </div>
+    <div class="one">
+        Hello... Everyone
+    </div>
+
+    <span id="two">Bye Bye </span>
+
+    <span class="one">Bye Bye </span>
+
+
+    <!-- CSS Selectors 
+    1. Tag Name -- not at all use this selector 
+    2. Id 
+    3. Class 
+    4. Universal -- not at all use this selector 
+    5. Group -->
+
+
+</body>
+
+</html>

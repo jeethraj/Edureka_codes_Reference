@@ -1,0 +1,19 @@
+Clone: Create new folder > right click > git bash here
+
+git clone https://github.com/edureka-intership/assignment-1-jeethraj.git
+
+git clone repo-link
+
+
+
+Upload>
+ 
+Open created folder by clone.
+add the code into that folder.
+
+right click > git bash here
+$ git add .
+$ git status
+$ git commit -m "Assignment one"
+$ git push origin master
+

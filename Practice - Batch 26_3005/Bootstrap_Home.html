@@ -1,0 +1,218 @@
+<html>
+
+<head>
+    <title>Bootstrap Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome Library CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .item {
+            width: 360px;
+            height: 160px;
+            box-shadow: 0 3px 6px 0 red;
+            margin: 10px;
+        }
+
+        .custom-icon {
+            font-size: 50px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Collapsible  -->
+
+    <div style="background-color:sandybrown; height: 30px">
+        <span>Collapse 1</span>
+        <span class="fas fa-chevron-down me-3 mt-2" style="float: right;" data-bs-toggle="collapse"
+            data-bs-target="#filter1"></span>
+    </div>
+    <div id="filter1" class="collapse">
+        First Hidden Bar
+    </div>
+
+    <div style="background-color:slateblue; height: 30px">
+        <span>Collapse 2</span>
+        <span class="fas fa-chevron-down me-3 mt-2" style="float: right;" data-bs-toggle="collapse"
+            data-bs-target="#filter2"></span>
+    </div>
+    <div id="filter2" class="collapse">
+        Second Hidden Bar
+    </div>
+
+    <div style="background-color:red; height: 30px">
+        <span>Collapse 3</span>
+        <span class="fas fa-chevron-down me-3 mt-2" style="float: right;" data-bs-toggle="collapse"
+            data-bs-target="#filter3"></span>
+    </div>
+    <div id="filter3" class="collapse">
+        Third Hidden Bar
+    </div>
+
+    <div class="container">
+        Hello djshfoiwehfo iwehf weoihfoiwe foiwe foihweiwfio hweoifhweoi hfoiweh oiweh fiweh foiwehwofh weoi hfoiweh
+        foiwe foi hweuifh weh foiweh fioweh fuihwe ew feoif hweoihoiwehg oiewh gfoiwehg oiwehgfoweghoi gifhweoi weoighf
+        weiohg we giweh goiweh goiwe giweh goiwehgo iehoiweh goihe goig oiweh giohwe gihewig hwei h
+    </div>
+
+    <div class="container-fluid">
+        Hello djshfoiwehfo iwehf weoihfoiwe foiwe foihweiwfio hweoifhweoi hfoiweh oiweh fiweh foiwehwofh weoi hfoiweh
+        foiwe foi hweuifh weh foiweh fioweh fuihwe ew feoif hweoihoiwehg oiewh gfoiwehg oiwehgfoweghoi gifhweoi weoighf
+        weiohg we giweh goiweh goiwe giweh goiwehgo iehoiweh goihe goig oiweh giohwe gihewig hwei h
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item"></div>
+        </div>
+    </div>
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <div>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+    </div>
+
+
+    <table class="table table-dark table-striped table-bordered table-hover">
+        <tr>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+    </table>
+
+    <!-- Forms  -->
+
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" class="form-control form-control-lg" value="Shubham" readonly />
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" class="form-control form-control-sm" required />
+        </div>
+        <div>
+            <label>City</label>
+            <select class="form-control form-control-sm">
+                <option>Select</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Agra</option>
+            </select>
+        </div>
+        <div>
+            <label>Address</label>
+            <textarea rows="3" class="form-control"></textarea>
+        </div>
+        <div>
+            <label> Upload Resume : </label>
+            <input type="file" class="form-control-file" />
+        </div>
+        <div>
+            <label>Skills : </label>
+            <input type="checkbox" class="form-check-input" /><span>FrontEnd</span>
+            <input type="checkbox" class="form-check-input" /><span>BackEnd</span>
+            <input type="checkbox" class="form-check-input" /><span>DBA</span>
+        </div>
+        <div>
+            <label>Gender : </label>
+            <input type="radio" class="form-check-input" name="gender" /><span>Male</span>
+            <input type="radio" class="form-check-input" name="gender" /><span>Female</span>
+        </div>
+        <input type="submit" class="btn btn-primary" />
+    </form>
+
+    <!-- Font Awesome Icons -->
+
+    <div>
+        <span class="fas fa-search" style="position: absolute; margin: 8px 0px 0px 3px;"></span>
+        <input type="text" class="ps-4" />
+    </div>
+
+
+    <span class="fas fa-search custom-icon"></span>
+    <a href="https://www.amazon.com" target="_blank">
+        <span class="fab fa-amazon custom-icon"></span>
+    </a>
+    <i class="fas fa-shopping-cart custom-icon"></i>
+
+
+    <!-- Margin, Padding -->
+
+
+    <!-- 
+        {property}{sides}-{size} 
+
+        m - for classes that set margin
+        p - for classes that set padding
+    
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+
+
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 - (by default) for classes that set the margin or padding to $spacer * .25
+2 - (by default) for classes that set the margin or padding to $spacer * .5
+3 - (by default) for classes that set the margin or padding to $spacer
+4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+5 - (by default) for classes that set the margin or padding to $spacer * 3
+    
+    -->
+
+</body>
+
+</html>

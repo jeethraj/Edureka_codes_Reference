@@ -1,0 +1,59 @@
+
+.dp-down{
+    position: relative;
+    display: inline-block;
+    
+}
+.dp-item{
+   display: none;
+   position: absolute;
+   color: rgb(91, 59, 151);
+   text-align: center;
+    background-color: whitesmoke;
+    
+    z-index: 1;
+    
+}
+
+.dp-down:hover .dp-item{
+    display: inline-block;
+    width: 80%;
+    opacity: 0.5;
+
+    
+
+}
+.test {
+    background-color: slateblue;
+}
+
+.catogories{
+    width: 90%;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    
+    
+
+}
+
+.catogories:hover{
+    box-shadow: 0 5px 20px 0 rgba(27, 26, 26, 0.3);
+}
+
+.item{
+    padding-top: 2px;
+    height: 30px;
+    color: purple;
+    font-weight: 500;
+    
+}
+
+.item:hover{
+   
+box-shadow: 0 5px 20px 0 rgba(27, 26, 26, 0.3);
+opacity:10 ;
+background-color: tomato;
+}

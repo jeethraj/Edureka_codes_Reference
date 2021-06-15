@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Bootstrap Filter Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .filter-block {
+            width: 90%;
+            height: 682px;
+            box-shadow: 0 3px 6px 0 red;
+            background-color: #ffffff;
+            margin-bottom: 10px;
+        }
+/*Mobile view*/
+        @media only screen and (max-width: 600px) {
+            .filter-block {
+                width: 60%;
+            }
+        }
+
+        .item {
+            width: 90%;
+            height: 291px;
+            box-shadow: 0 3px 6px 0 red;
+            background-color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .heading {
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+        }
+
+        .pagination-item {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            border-radius: 7px;
+            border: solid 1px #8c96ab;
+            background-color: #ffffff;
+            text-align: center;
+            color: #8c96ab;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Breakfast Places in Mumbai</div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div class="filter-block"></div>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div style="text-align: center;">
+                    <span class="pagination-item">&#60;</span>
+                    <span class="pagination-item">1</span>
+                    <span class="pagination-item">2</span>
+                    <span class="pagination-item">3</span>
+                    <span class="pagination-item">4</span>
+                    <span class="pagination-item">5</span>
+                    <span class="pagination-item">&#62;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

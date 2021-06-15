@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>JS Introduction</title>
+    <!-- Script to execute on events -->
+    <script>
+        function print() {
+            alert("Jeeth");
+        }
+
+        
+    </script>
+    <script src="JS_Intro.js"></script>
+</head>
+
+<body>
+    <!-- Script to execute on page load -->
+    <script>
+        document.write("Welcome Everyone !!! ");
+        var LN;
+        document.write(LN); 
+
+        class Students {
+    studentsList = [
+        {
+            name: "Shubham Arora",
+            age: 30,
+            gender: "Male",
+            isEligibleForExams: true,
+            rollNo: 1
+        },
+        {
+            name: "Mayank Arora",
+            age: 27,
+            gender: "Male",
+            isEligibleForExams: true,
+            rollNo: 2
+        },
+        {
+            name: "Shubhi Agarwal",
+            age: 29,
+            subjects: ["Maths", "English"],
+            gender: "Female",
+            isEligibleForExams: true,
+            rollNo: 3
+        }
+    ]
+
+    printStudents = () => {
+        return this.studentsList.map(item => item.name);
+    }
+
+    getStudentDetailsByrollNo = (rollNumber) => {
+        return this.studentsList.filter(item => item.rollNo == rollNumber);
+    }
+
+}
+
+var obj = new Students();
+obj.printStudents();
+obj.getStudentDetailsByrollNo(2);
+
+
+    </script>
+    <button onclick="print()">Print Name</button>
+    <button onclick="print1()">Hello</button>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Intro.css" />
+    <style>
+        .logo {
+            position: absolute;
+            top: 25%;
+            left: 45%;
+            color: red;
+            background-color: white;
+            height: 70px;
+            border-radius: 50%;
+            font-size: 50px;
+            width: 70px;
+            text-align: center;
+        }
+
+        .heading {
+            position: absolute;
+            top: 37%;
+            left: 17%;
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+
+        .searchBlock {
+            position: absolute;
+            top: 47%;
+            left: 23%;
+        }
+
+        .selectBox {
+            width: 180px;
+            height: 30px;
+            background-color: #ffffff;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #636f88;
+        }
+
+        .searchBox {
+            width: 350px;
+            height: 33px;
+            background-color: #ffffff;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #636f88;
+        }
+
+        .item {
+            width: 350px;
+            height: 150px;
+            border: 1px black solid;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .header {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+        }
+
+        .description {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="Images/homepageimg.png" height="400px" width="100%" alt="No Images" />
+    <div class="logo">
+        <b>e!</b>
+    </div>
+    <div class="heading">Find the best restaurants, cafés, and bars</div>
+    <div class="searchBlock">
+        <select class="selectBox">
+            <option>Select</option>
+        </select>
+        <input class="searchBox" type="text" />
+    </div>
+
+    <div style="margin-left: 30px;">
+        <div class="item">
+            <div name="left" style="display: inline-block; width: 40%">
+                <img src="Images/breakfast.jpg" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Breakfast</div>
+                <div class="description">Start your day with exclusive breakfast options</div>
+            </div>
+        </div>
+        <div class="item">
+            <div style="display: inline-block; width: 40%">
+                <img src="Images/lunch.jpg" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Lunch</div>
+                <div class="description">Start your day with exclusive lunch options</div>
+            </div>
+        </div>
+        <div class="item">
+            <div style="display: inline-block; width: 40%">
+                <img src="Images/snacks.jpg" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Snacks</div>
+                <div class="description">Start your day with exclusive snacks options</div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-left: 30px;">
+        <div class="item">
+            <div name="left" style="display: inline-block; width: 40%">
+                <img src="Images/dinner.png" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Dinner</div>
+                <div class="description">Start your day with exclusive dinner options</div>
+            </div>
+        </div>
+        <div class="item">
+            <div style="display: inline-block; width: 40%">
+                <img src="Images/drinks.png" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Drinks</div>
+                <div class="description">Start your day with exclusive drinks options</div>
+            </div>
+        </div>
+        <div class="item">
+            <div style="display: inline-block; width: 40%">
+                <img src="Images/nightlife.png" width="100%" height="100%" />
+            </div>
+            <div name="right"
+                style="display: inline-block; width: 50%; vertical-align: top;padding-top: 30px;padding-left: 15px;">
+                <div class="header">Nightlife</div>
+                <div class="description">Start your day with exclusive nightlife options</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

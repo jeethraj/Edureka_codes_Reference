@@ -1,0 +1,425 @@
+* {
+    font-family: Poppins;
+}
+
+header {
+    background-color: #ce0505;
+    height: 70px;
+    position: relative;
+}
+
+.logo-span {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 13px;
+    margin-bottom: 3px;
+    position: absolute;
+    left: 80px;
+    top: 8px;
+    bottom: 5px;
+}
+
+.logo {
+    color: #ce0505;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    bottom: 5px;
+}
+
+.login-signup {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    word-spacing: 20px;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+}
+
+.signup:hover, .login:hover {
+    color: white;
+}
+
+.signup {
+    color: white;
+    word-spacing: normal;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: left;
+    color: #192f60;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+}
+
+.left-block {
+    width: 90%;
+    height: 660px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+.Filters {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 154px 10px 0;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Select_Location {
+    font-size: 14px;
+    margin: 10px 10px 11px 1px;
+    color: #192f60;
+}
+
+select {
+    font-size: 14px;
+    color: #8c96ab;
+}
+
+.Cuisine {
+    margin: 22px 100px 15px 1px;
+    font-size: 14px;
+    color: #192f60;
+}
+
+.chebox_name {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #8c96ab;
+}
+
+.Cost-for-Two {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #192f60;
+}
+
+.cost1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #8c96ab;
+}
+
+.sort {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #192f60;
+}
+
+.Low-high {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #8c96ab;
+}
+
+.items {
+    width: 90%;
+    height: 300px;
+    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.img-div {
+    display: inline-block;
+}
+
+.img {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.res-name {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.H-name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #192f60;
+}
+
+.Fort {
+    margin-left: 2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #192f60;
+}
+
+.Shop {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #636f88;
+}
+
+.down-1 {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.label-1 {
+    font-size: 16px;
+    color: #636f88;
+    margin-bottom: 10px;
+}
+
+.pagenation {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.page {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    color: #8c96ab;
+    ;
+    padding: 5px 12px 3px 13px;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.page:hover {
+    color: white;
+    background-color: #8c96ab;
+}
+
+.down-arrow {
+    display: none !important;
+}
+
+.collapse1 {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+
+/*Mobile view*/
+
+@media only screen and (max-width: 600px) {
+    .logo-span {
+        position: absolute;
+        left: 10px;
+    }
+    .down-arrow {
+        display: initial !important;
+    }
+    .login-signup {
+        position: absolute;
+        right: 10px;
+    }
+    .login {
+        font-size: 15px;
+    }
+    .signup {
+        font-size: 15px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .collapse1 {
+        width: 90%;
+        height: 30px;
+        margin-bottom: 3px;
+        margin-left: 15px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        padding-left: 20px;
+        padding-top: 10px;
+        background-color: #ffffff;
+    }
+    .left-block {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .items {
+        width: 90%;
+        height: 250px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .img {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+    }
+    .res-name {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .H-name {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Fort {
+        margin-bottom: 3px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Shop {
+        font-size: 10px;
+        font-weight: 500;
+        color: #636f88;
+    }
+    .down-1 {
+        display: inline-block;
+        padding-top: 1px;
+        padding-left: 30px;
+    }
+    .label-1 {
+        font-size: 16px;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+}
+
+/*Tablet view*/
+
+@media only screen and (min-width:800px) and (max-width: 1088px) {
+    .img {
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        border-radius: 15px;
+    }
+    .res-name {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .H-name {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Fort {
+        margin-bottom: 3px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Shop {
+        font-size: 10px;
+        font-weight: 500;
+        color: #636f88;
+    }
+    .down-1 {
+        display: inline-block;
+        padding-top: 1px;
+        padding-left: 30px;
+    }
+    .label-1 {
+        font-size: 16px;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 850px) {
+    .left-block {
+        width: 60%;
+        margin-left: 45px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .items {
+        width: 90%;
+        height: 300px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .img {
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        border-radius: 15px;
+    }
+    .res-name {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .H-name {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Fort {
+        margin-bottom: 3px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #192f60;
+    }
+    .Shop {
+        font-size: 10px;
+        font-weight: 500;
+        color: #636f88;
+    }
+    .down-1 {
+        display: inline-block;
+        padding-top: 1px;
+        padding-left: 30px;
+    }
+    .label-1 {
+        font-size: 16px;
+        color: #636f88;
+        margin-bottom: 10px;
+    }
+}
